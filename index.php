@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>V-Class</title>
+	<title>Horizon</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -33,11 +33,11 @@
 <body>
 	
 	<div class="limiter">
-		<div class="container-login100" style="background-image: url('images/background.jpg');">
+		<div class="container-login100" style="background-image: url('images/background3.png');">
 			<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
 				<div class="login100-form validate-form flex-sb flex-w">
 					<span class="login100-form-title p-b-53">
-						V-Class
+						HORIZON
 					</span>
 
 					<a href="teacherlogin.php" class="btn-google m-b-20">
