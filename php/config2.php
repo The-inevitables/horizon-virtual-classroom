@@ -9,13 +9,13 @@ require_once 'vendor/autoload.php';
 $google_client = new Google_Client();
 
 //Set the OAuth 2.0 Client ID
-$google_client->setClientId('548493974250-vgfnm803fdoq2hq1pvupvfpiroseig9e.apps.googleusercontent.com');
+$google_client->setClientId('187139219005-jqpj4ath81su698qmj06st2mtbb3e3r8.apps.googleusercontent.com');
 
 //Set the OAuth 2.0 Client Secret key
-$google_client->setClientSecret('jjj1tX4IsZVRe-Shyk_8JfrZ');
+$google_client->setClientSecret('TymhxltAjBEelEHZO6GzgFh-');
 
 //Set the OAuth 2.0 Redirect URI
-$google_client->setRedirectUri('https://virtual-class.azurewebsites.net/dashboard/indexteachergoogle.php');
+$google_client->setRedirectUri('https://horizon.herokuapp.com/dashboard/teacher.php');
 
 //
 $google_client->addScope('email');
