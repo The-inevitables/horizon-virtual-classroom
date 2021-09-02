@@ -28,7 +28,7 @@
 <!--===============================================================================================-->
 
 	<style>
-			h1 {
+			h2{
   				background-color: #082a44;
   				color: #fbe675;
 				}
@@ -42,7 +42,7 @@
 			<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
 				<div class="login100-form validate-form flex-sb flex-w">
 					<span class="login100-form-title p-b-53">
-						<h1>HORIZON</h1>
+						<h2>HORIZON</h2>
 					</span>
 
 					<a href="teacherlogin.php" class="btn-google m-b-20">
