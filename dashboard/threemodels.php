@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Student Dashboard</title>
+    <title>Learn in 3d</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
     <meta content="Coderthemes" name="author" />
@@ -14,24 +14,13 @@
     <style>
         body.loading {
             visibility: hidden;
-        }
-        #feed-container {
-                            width: 100%;
-                            height: 400px;
-                         }
-        #tasks-container {
-                            width: 100%;
-                            height: 500px;
-                         }                 
+        }  
     </style>
 
     <!-- App css -->
     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="main-style-container" />
     <link href="assets/css/weavy.css" rel="stylesheet" type="text/css" />
-    <script src="https://horizond.azurewebsites.net/javascript/weavy.jquery.js"></script>
-    <script>var weavy = new Weavy();</script>
-
 </head>
 
 <body class="loading">
@@ -62,7 +51,6 @@
                             </ul>
                         </li>
 
-
                         <li class="side-nav-item">
                             <a href="javascript: void(0);" class="side-nav-link mm-active">
                                 <i class="dripicons-copy"></i>
@@ -88,13 +76,6 @@
                             <a href="javascript: void(0);" class="side-nav-link mm-active">
                                 <i class="dripicons-copy"></i>
                                 <span> Library </span>
-                            </a>
-                        </li>
-
-                        <li class="side-nav-item">
-                            <a href="threemodels.php" target="_blank" class="side-nav-link mm-active">
-                                <i class="dripicons-copy"></i>
-                                <span> Learn in 3d  </span>
                             </a>
                         </li>
 
@@ -203,8 +184,8 @@
                                             class="rounded-circle">
                                     </span>
                                     <span>
-                                        <span class="account-user-name">Teacher</span>
-                                        <span class="account-position">Admin</span>
+                                        <span class="account-user-name">Learn in 3d</span>
+                                        <span class="account-position">Horizon Initiative</span>
                                     </span>
                                 </a>
                                 <div
@@ -239,7 +220,7 @@
                                     </a>
 
                                     <!-- item-->
-                                    <a href="../logout.php" class="dropdown-item notify-item">
+                                    <a href="../logout2.php" class="dropdown-item notify-item">
                                         <i class="mdi mdi-logout mr-1"></i>
                                         <span>Logout</span>
                                     </a>
@@ -261,52 +242,68 @@
                 <!-- Start Content-->
                 <div class="container-fluid">
 
+                    <!-- start page title -->
                     <div class="row">
-                        <div class="col-lg-12">
+                        <div class="col-12">
+                            <div class="page-title-box">
+                                
+                                <h4 class="page-title">3D Models</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end page title -->
+
+
+                    <div class="row">
+
+                    <div class="col-lg-6">
                             <div class="card section-customer" data-customer-id="acme">
                                 <div class="card-body">
-                                    <h4 class="header-title mb-3">Horizon Feeds</h4>
+                                    <h4 class="header-title mb-3">Full Body Anatomy</h4>
 
-                                    <div id="feed-container"></div>
+                                    <iframe width="550" height="490" src="https://app.nearpod.com/?pin=E7C922580FD6FE293F4CD8401971B005-1&he=true" frameborder="0" allowfullscreen=""></iframe>
+
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                            <div class="card section-customer" data-customer-id="acme">
+                                <div class="card-body">
+                                    <h4 class="header-title mb-3">Cardiovascular System</h4>
+
+                                    <iframe width="550" height="490" src="https://app.nearpod.com/?pin=76E50A9800BCE166D8A040C7C27D5A26-1&he=true" frameborder="0" allowfullscreen=""></iframe>
 
                                 </div>
                             </div>
                         </div>
                         <!-- end col -->
 
+                        <div class="col-lg-6">
+                            <div class="card section-customer" data-customer-id="acme">
+                                <div class="card-body">
+                                    <h4 class="header-title mb-3">Auditory System</h4>
 
-                    
+                                    <iframe width="550" height="490" src="https://app.nearpod.com/?pin=0A35593041F77B4B9359D009E56222BE-1&he=true" frameborder="0" allowfullscreen=""></iframe>
 
-
-                        <!-- end col-->
+                                </div>
+                            </div>
                         </div>
+                        <!-- end col -->
 
+                        
+
+                        <div class="col-lg-6">
+                            <div class="card section-customer" data-customer-id="acme">
+                                <div class="card-body">
+                                    <h4 class="header-title mb-3">Respiratory System</h4>
+
+                                    <iframe width="550" height="490" src="https://app.nearpod.com/?pin=ACC9E1AC3FAAB18C7370EC41D14CE9DC-1&he=true" frameborder="0" allowfullscreen=""></iframe>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <!-- end row -->
-
-
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="card section-customer" data-customer-id="acme">
-                                <div class="card-body">
-                                    <h4 class="header-title mb-3">Files</h4>
-
-                                    <div id="weavy-files-container"></div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6">
-                            <div class="card section-customer" data-customer-id="acme">
-                                <div class="card-body">
-                                    <h4 class="header-title mb-3">Tasks</h4>
-
-                                    <div id="tasks-container"></div>
-
-                                </div>
-                            </div>
-                        </div>
                     <!-- end row -->
 
 
@@ -354,7 +351,6 @@
 
     <!-- Containter for Weavy Messenger -->
     <div id="weavy-messenger-container"></div>
-    <div id="feeds"></div>
 
     <!-- App js -->
     <script src="assets/js/app.js"></script>
