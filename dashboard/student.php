@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Teacher Dashboard</title>
+    <title>Student Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
     <meta content="Coderthemes" name="author" />
@@ -57,7 +57,7 @@
                             </a>
                             <ul class="side-nav-second-level mm-show" aria-expanded="false">
                                 <li>
-                                    <a href="index.php">Home</a>
+                                    <a href="../index.php">Home</a>
                                 </li>
                             </ul>
                         </li>
@@ -102,12 +102,6 @@
                             </a>
                         </li>
 
-                        <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-copy"></i>
-                                <span> Zoom </span>
-                            </a>
-                        </li>
                     </ul>
 
                     <div class="clearfix"></div>
@@ -162,7 +156,7 @@
                                             <div class="notify-icon bg-primary">
                                                 <i class="mdi mdi-comment-account-outline"></i>
                                             </div>
-                                            <p class="notify-details">Akhil submitted assignment.
+                                            <p class="notify-details">Akash added a new feed post.
                                                 <small class="text-muted">1 min ago</small>
                                             </p>
                                         </a>
@@ -172,7 +166,7 @@
                                             <div class="notify-icon bg-primary">
                                                 <i class="mdi mdi-comment-account-outline"></i>
                                             </div>
-                                            <p class="notify-details">Aleena submitted assignment.
+                                            <p class="notify-details">Anjana added a new feed post.
                                                 <small class="text-muted">5 hours ago</small>
                                             </p>
                                         </a>
@@ -182,7 +176,7 @@
                                             <div class="notify-icon bg-primary">
                                                 <i class="mdi mdi-comment-account-outline"></i>
                                             </div>
-                                            <p class="notify-details">Adarsh submitted assignment.
+                                            <p class="notify-details">Nikhil added a new feed post.
                                                 <small class="text-muted">1 days ago</small>
                                             </p>
                                         </a>
@@ -249,7 +243,7 @@
                                     </a>
 
                                     <!-- item-->
-                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <a href="../logout.php" class="dropdown-item notify-item">
                                         <i class="mdi mdi-logout mr-1"></i>
                                         <span>Logout</span>
                                     </a>

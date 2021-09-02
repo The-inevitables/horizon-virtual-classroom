@@ -15,6 +15,10 @@
         body.loading {
             visibility: hidden;
         }
+        #tasks-container {
+                            width: 100%;
+                            height: 500px;
+                         }      
     </style>
 
     <!-- App css -->
@@ -48,7 +52,7 @@
                             </a>
                             <ul class="side-nav-second-level mm-show" aria-expanded="false">
                                 <li>
-                                    <a href="index.php">Home</a>
+                                    <a href="../index.php">Home</a>
                                 </li>
                             </ul>
                         </li>
@@ -93,12 +97,6 @@
                             </a>
                         </li>
 
-                        <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-copy"></i>
-                                <span> Zoom </span>
-                            </a>
-                        </li>
                     </ul>
 
                     <div class="clearfix"></div>
@@ -240,7 +238,7 @@
                                     </a>
 
                                     <!-- item-->
-                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <a href="../logout2.php" class="dropdown-item notify-item">
                                         <i class="mdi mdi-logout mr-1"></i>
                                         <span>Logout</span>
                                     </a>
@@ -266,14 +264,8 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="page-title-box">
-                                <div class="page-title-right">
-                                    <ol class="breadcrumb m-0">
-                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Hyper</a></li>
-                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Customers</a></li>
-                                        <li class="breadcrumb-item active">Customer Details</li>
-                                    </ol>
-                                </div>
-                                <h4 class="page-title">ACME Inc.</h4>
+                                
+                                <h4 class="page-title">Teacher</h4>
                             </div>
                         </div>
                     </div>
@@ -281,95 +273,7 @@
 
 
                     <div class="row">
-                        <div class="col-lg-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4 class="header-title mb-3">Main information</h4>
-
-                                    <h5>ACME Inc.</h5>
-
-                                    <address class="mb-0 font-14 address-lg">
-                                        795 Folsom Ave, Suite 600<br>
-                                        San Francisco, CA 94107<br>
-                                        <abbr title="Phone">P:</abbr> (123) 456-7890 <br />
-                                        <abbr title="Mobile">M:</abbr> (+01) 12345 67890
-                                    </address>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end col -->
-
-                        <div class="col-lg-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4 class="header-title mb-3">Billing Information</h4>
-
-                                    <ul class="list-unstyled mb-0">
-                                        <li>
-                                            <p class="mb-2"><span class="font-weight-bold mr-2">Payment Type:</span>
-                                                Credit Card</p>
-                                            <p class="mb-2"><span class="font-weight-bold mr-2">Provider:</span> Visa
-                                                ending in 2851</p>
-                                            <p class="mb-2"><span class="font-weight-bold mr-2">Valid Date:</span>
-                                                02/2020</p>
-                                            <p class="mb-0"><span class="font-weight-bold mr-2">CVV:</span> xxx</p>
-                                        </li>
-                                    </ul>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end col -->
-
-                        <div class="col-lg-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="dropdown float-right">
-                                        <a href="#" class="dropdown-toggle arrow-none card-drop" data-toggle="dropdown"
-                                            aria-expanded="false">
-                                            <i class="mdi mdi-dots-vertical"></i>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-right">
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Sales Report</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Export Report</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Profit</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Action</a>
-                                        </div>
-                                    </div>
-                                    <h4 class="header-title">Total Sales</h4>
-
-                                    <div class="chart-widget-list">
-                                        <p>
-                                            <i class="mdi mdi-square text-primary"></i> Direct
-                                            <span class="float-right">$300.56</span>
-                                        </p>
-                                        <p>
-                                            <i class="mdi mdi-square text-success"></i> Sponsored
-                                            <span class="float-right">$48.96</span>
-                                        </p>
-                                        <p class="mb-0">
-                                            <i class="mdi mdi-square"></i> E-mail
-                                            <span class="float-right">$154.02</span>
-                                        </p>
-                                    </div>
-                                </div>
-                                <!-- end card-body-->
-                            </div>
-                            <!-- end card-->
-                        </div>
-                        <!-- end col-->
-
-                    </div>
-                    <!-- end row -->
-
-
-                    <div class="row">
-                        <div class="col-lg-8">
+                        <div class="col-lg-6">
                             <div class="card section-customer" data-customer-id="acme">
                                 <div class="card-body">
                                     <h4 class="header-title mb-3">Files</h4>
@@ -381,45 +285,28 @@
                         </div>
                         <!-- end col -->
 
-                        <div class="col-lg-4">
-                            <div class="card">
+                        <div class="col-lg-6">
+                            <div class="card section-customer" data-customer-id="acme">
                                 <div class="card-body">
-                                    <h4 class="header-title mb-3">Order Summary</h4>
+                                    <h4 class="header-title mb-3">Google Calender</h4>
 
-                                    <div class="table-responsive">
-                                        <table class="table mb-0">
-                                            <thead class="thead-light">
-                                                <tr>
-                                                    <th>Description</th>
-                                                    <th>Price</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>Grand Total :</td>
-                                                    <td>$1641</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Shipping Charge :</td>
-                                                    <td>$23</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Estimated Tax : </td>
-                                                    <td>$19.22</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Total :</th>
-                                                    <th>$1683.22</th>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <!-- end table-responsive -->
+                                    <iframe src="https://calendar.google.com/calendar/embed?src=akhilmanil0%40gmail.com&ctz=Asia%2FKolkata" style="border: 0" width="550" height="490" frameborder="0" scrolling="no"></iframe>
 
                                 </div>
                             </div>
                         </div>
                         <!-- end col -->
+
+                        <div class="col-lg-6">
+                            <div class="card section-customer" data-customer-id="acme">
+                                <div class="card-body">
+                                    <h4 class="header-title mb-3">Tasks</h4>
+
+                                    <div id="tasks-container"></div>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <!-- end row -->
 
