@@ -203,8 +203,8 @@
                                             class="rounded-circle">
                                     </span>
                                     <span>
-                                        <span class="account-user-name">Teacher</span>
-                                        <span class="account-position">Admin</span>
+                                        <span class="account-user-name">Student</span>
+                                        <span class="account-position">Horizon</span>
                                     </span>
                                 </a>
                                 <div

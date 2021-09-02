@@ -97,6 +97,13 @@
                             </a>
                         </li>
 
+                        <li class="side-nav-item">
+                            <a href="feeds.php" target="_blank" class="side-nav-link mm-active">
+                                <i class="dripicons-copy"></i>
+                                <span> Student Feeds  </span>
+                            </a>
+                        </li>
+
                     </ul>
 
                     <div class="clearfix"></div>
@@ -307,6 +314,7 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
                     <!-- end row -->
 
