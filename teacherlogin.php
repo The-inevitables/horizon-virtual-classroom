@@ -56,7 +56,7 @@ if(!isset($_SESSION['access_token']))
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>V-Class Teacher</title>
+	<title>Horizon Teacher</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
