@@ -77,9 +77,9 @@
                         </li>
 
                         <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
+                            <a href="exam.php" class="side-nav-link mm-active">
                                 <i class="dripicons-copy"></i>
-                                <span> Class Tests </span>
+                                <span> Class Tests Evaluation </span>
                             </a>
                         </li>
 
