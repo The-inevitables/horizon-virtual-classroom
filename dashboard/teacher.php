@@ -84,9 +84,9 @@
                         </li>
 
                         <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
+                            <a href="threemodels.php" target="_blank" class="side-nav-link mm-active">
                                 <i class="dripicons-copy"></i>
-                                <span> Calender </span>
+                                <span> Learn in 3d  </span>
                             </a>
                         </li>
 
