@@ -55,11 +55,11 @@
                                 <i class="dripicons-home"></i>
                                 <span> Dashboards </span>
                             </a>
-                            <ul class="side-nav-second-level mm-show" aria-expanded="false">
+                            <!-- <ul class="side-nav-second-level mm-show" aria-expanded="false">
                                 <li>
                                     <a href="../index.php"><i class="dripicons-meter"></i> &nbsp;Home</a>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </li>
 
 
