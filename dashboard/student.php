@@ -94,7 +94,7 @@
                         <li class="side-nav-item">
                             <a href="threemodels.php" target="_blank" class="side-nav-link mm-active">
                                 <i class="dripicons-pin"></i>
-                                <span> Learn in 3d  </span>
+                                <span> Learn in 3D  </span>
                             </a>
                         </li>
 
@@ -111,7 +111,7 @@
         <div id="detached-sidebar-placeholder"></div>
 
         <!-- ============================================================== -->
-        <!-- Start Page Content here -->
+        <!-- Top panel  Content here -->
         <!-- ============================================================== -->
 
         <div class="content-page">
@@ -258,8 +258,9 @@
                 </div>
                 <!-- start Topbar -->
                 <div id="horizontal-topbar-placeholder"></div>
-
-                <!-- Horizon Feeds in Dashboard-->
+        <!-- ============================================================== -->
+        <!-- Add page widgets and contents here -->
+        <!-- ============================================================== -->
                 <div class="container-fluid">
 
                     <div class="row">
@@ -276,7 +277,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-5">
+                        <div class="col-lg-6">
                             <div class="card section-customer" data-customer-id="acme">
                                 <div class="card-body">
                                     <h4 class="header-title mb-3">Horizon Feeds</h4>

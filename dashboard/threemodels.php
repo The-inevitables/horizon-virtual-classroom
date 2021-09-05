@@ -92,7 +92,7 @@
         <div id="detached-sidebar-placeholder"></div>
 
         <!-- ============================================================== -->
-        <!-- Start Page Content here -->
+        <!-- Top panel details! -->
         <!-- ============================================================== -->
 
         <div class="content-page">
@@ -238,8 +238,9 @@
 
                 </div>
                 <div id="horizontal-topbar-placeholder"></div>
-
-                <!-- Start Content-->
+        <!-- ============================================================== -->
+        <!-- Page contents! -->
+        <!-- ============================================================== -->
                 <div class="container-fluid">
 
                     <!-- start page title -->
@@ -247,7 +248,7 @@
                         <div class="col-12">
                             <div class="page-title-box">
                                 
-                                <h4 class="page-title">3D Models</h4>
+                                <h4 class="page-title">3D Models : Biology</h4>
                             </div>
                         </div>
                     </div>
