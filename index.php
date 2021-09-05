@@ -1,86 +1,60 @@
-<!DOCTYPE html>
+
 <html lang="en">
-<head>
-	<title>Horizon</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->	
-	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->	
-	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
+	<head>
+		<title>Horizon</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="threejscss/main.css">
 
-	<style>
-			h2{
-  				background-color: #082a44;
-  				color: #fbe675;
+		<style>
+			h1 {
+				display: block;
+				font-size: 90px;
+				margin-top: 0.67em;
+				margin-bottom: 0.67em;
+				margin-left: 0;
+				margin-right: 0;
+				font-weight: bold;
+				color: rgb(245, 218, 63);
 				}
-	</style>
+			h2 {
+				display: block;
+				font-size: 50px;
+				margin-top: 0.67em;
+				margin-bottom: 0.67em;
+				margin-left: 0;
+				margin-right: 0;
+				font-weight: bold;
+				}
+			a:link, a:visited {
+					background-color: #fcfcfc;
+					color: rgb(8, 8, 8);
+					padding: 20px 33px;
+					text-align: center;
+					text-decoration: none;
+					display: inline-block;
+					}
 
-</head>
-<body>
-	
-	<div class="limiter">
-		<div class="container-login100" style="background-image: url('images/horizon.png');">
-			<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
-				<div class="login100-form validate-form flex-sb flex-w">
-					<span class="login100-form-title p-b-53">
-						<h2>HORIZON</h2>
-					</span>
+			a:hover, a:active {
+					background-color: rgb(250, 250, 250);
+					}	
+		</style>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>
+	</head>
 
-					<a href="teacherlogin.php" class="btn-google m-b-20">
-					<img src="images/icons/teachericon.png" alt="teacher">
-						Teacher
-					</a>
+	<body>
+		<div id="info">
+			<h1>Horizon</h1><h2>The Virtual Classroom</h2><br/>
+			<a href "teacherlogin.php" >Teacher</a>
+			<a href "studentlogin.php" >Student</a>
 
-					<a href="studentlogin.php" class="btn-google m-b-20">
-						<img src="images/icons/studenticon.png" alt="student">
-						Student
-					</a>
-
-					
-					
-				</div>	
-			</div>
 		</div>
-	</div>
-	
 
-	<div id="dropDownSelect1"></div>
-	
-<!--===============================================================================================-->
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/animsition/js/animsition.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/daterangepicker/moment.min.js"></script>
-	<script src="vendor/daterangepicker/daterangepicker.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
+		<script type="module" src="threejsjs/three.js">
 
-</body>
+			
+
+		</script>
+
+	</body>
 </html>
