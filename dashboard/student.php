@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <title>Student Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="A dashboard dedicated for adding for students" name="description" />
+    <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
     <meta content="Coderthemes" name="author" />
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
@@ -17,7 +17,7 @@
         }
         #feed-container {
                             width: 100%;
-                            height: 400px;
+                            height: 550px;
                          }
         #tasks-container {
                             width: 100%;
@@ -52,48 +52,48 @@
 
                         <li class="side-nav-item mm-open">
                             <a href="javascript: void(0);" class="side-nav-link">
-                                <i class="dripicons-home"></i>
+                                <i class="dripicons-meter"></i>
                                 <span> Dashboards </span>
                             </a>
-                            <!-- <ul class="side-nav-second-level mm-show" aria-expanded="false">
+                            <ul class="side-nav-second-level mm-show" aria-expanded="false">
                                 <li>
-                                    <a href="../index.php"><i class="dripicons-meter"></i> &nbsp;Home</a>
+                                    <a href="../index.php">Home</a>
                                 </li>
-                            </ul> -->
+                            </ul>
                         </li>
 
 
                         <li class="side-nav-item">
                             <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-clipboard"></i>
+                                <i class="dripicons-copy"></i>
                                 <span> Assignment </span>
                             </a>
                         </li>
 
                         <li class="side-nav-item">
                             <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-document-edit"></i>
+                                <i class="dripicons-copy"></i>
                                 <span> Class Tests </span>
                             </a>
                         </li>
 
                         <li class="side-nav-item">
                             <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-calendar"></i>
+                                <i class="dripicons-copy"></i>
                                 <span> Calender </span>
                             </a>
                         </li>
 
                         <li class="side-nav-item">
                             <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-archive"></i>
+                                <i class="dripicons-copy"></i>
                                 <span> Library </span>
                             </a>
                         </li>
 
                         <li class="side-nav-item">
                             <a href="threemodels.php" target="_blank" class="side-nav-link mm-active">
-                                <i class="dripicons-pin"></i>
+                                <i class="dripicons-copy"></i>
                                 <span> Learn in 3d  </span>
                             </a>
                         </li>
@@ -147,12 +147,12 @@
                                     </div>
 
                                     <div class="slimscroll" style="max-height: 230px;">
-                                        <!-- Notification Bar-->
+                                        <!-- item-->
                                         <a href="javascript:void(0);" class="dropdown-item notify-item">
                                             <div class="notify-icon bg-primary">
                                                 <i class="mdi mdi-comment-account-outline"></i>
                                             </div>
-                                            <p class="notify-details">Akash added a new Horizon Feed.
+                                            <p class="notify-details">Akash added a new feed post.
                                                 <small class="text-muted">1 min ago</small>
                                             </p>
                                         </a>
@@ -162,7 +162,7 @@
                                             <div class="notify-icon bg-primary">
                                                 <i class="mdi mdi-comment-account-outline"></i>
                                             </div>
-                                            <p class="notify-details">Anjana added a new Horizon Feed.
+                                            <p class="notify-details">Anjana added a new feed post.
                                                 <small class="text-muted">5 hours ago</small>
                                             </p>
                                         </a>
@@ -172,7 +172,7 @@
                                             <div class="notify-icon bg-primary">
                                                 <i class="mdi mdi-comment-account-outline"></i>
                                             </div>
-                                            <p class="notify-details">Nikhil added a new Horizon Feed.
+                                            <p class="notify-details">Nikhil added a new feed post.
                                                 <small class="text-muted">1 days ago</small>
                                             </p>
                                         </a>
@@ -183,7 +183,7 @@
                                         class="dropdown-item text-center text-primary notify-item notify-all">
                                         View All
                                     </a>
-                                    <!-- End of Notification bar-->
+
                                 </div>
                             </li>
 
@@ -256,62 +256,58 @@
                     <!-- end Topbar -->
 
                 </div>
-                <!-- start Topbar -->
                 <div id="horizontal-topbar-placeholder"></div>
 
-                <!-- Horizon Feeds in Dashboard-->
+                <!-- Start Content-->
                 <div class="container-fluid">
 
                     <div class="row">
-                        <div class="col-lg-6">
-                            <div class="card section-customer" data-customer-id="acme">
-                                <div class="card-body">
-                                    <h4 class="header-title mb-3">Horizon Feeds</h4>
+                            <div class="col-lg-6">
+                                <div class="card section-customer" data-customer-id="acme">
+                                    <div class="card-body">
+                                        <h4 class="header-title mb-3">Tasks</h4>
 
-                                    <div id="feed-container"></div>
+                                        <div id="tasks-container"></div>
 
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- end of horizon Widget -->
-                        <!-- Task Manager-->
-                        <div class="col-lg-6">
-                            <div class="card section-customer" data-customer-id="acme">
-                                <div class="card-body">
-                                    <h4 class="header-title mb-3">Tasks</h4>
+                    
+                            <div class="col-lg-6">
+                                <div class="card section-customer" data-customer-id="acme">
+                                    <div class="card-body">
+                                        <h4 class="header-title mb-3">Horizon Feeds</h4>
 
-                                    <div id="tasks-container"></div>
+                                        <div id="feed-container"></div>
 
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- end of Task Manager-->
-                        </div>
+                            <!-- end col -->
+                    </div>                      
 
-                    </div>
-                    <!-- end row -->
 
-                    <!-- Adding Weavy file browsing components -->
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="card section-customer" data-customer-id="acme">
-                                <div class="card-body">
-                                    <h4 class="header-title mb-3">Files</h4>
 
-                                    <div id="weavy-files-container"></div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="card section-customer" data-customer-id="acme">
+                                    <div class="card-body">
+                                        <h4 class="header-title mb-3">Files</h4>
 
+                                        <div id="weavy-files-container"></div>
+
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        
+                        </div>   
                     <!-- end row -->
 
 
                 </div>
                 <!-- container -->
 
-            </div>
+            
             <!-- content -->
 
             <!-- Footer Start -->
@@ -323,7 +319,6 @@
                         </div>
                         <div class="col-md-6">
                             <div class="text-md-right footer-links d-none d-md-block">
-                            &#169;Team Inevitables 2021 &nbsp;&nbsp;&nbsp;
                                 <a href="javascript: void(0);">About</a>
                                 <a href="javascript: void(0);">Support</a>
                                 <a href="javascript: void(0);">Contact Us</a>
