@@ -79,7 +79,7 @@
 
                         <li class="side-nav-item">
                             <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-ticket"></i>
+                                <i class="dripicons-calendar"></i>
                                 <span> Calender </span>
                             </a>
                         </li>
