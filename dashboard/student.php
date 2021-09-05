@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <title>Student Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+    <meta content="A dashboard dedicated for adding for students" name="description" />
     <meta content="Coderthemes" name="author" />
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
@@ -147,12 +147,12 @@
                                     </div>
 
                                     <div class="slimscroll" style="max-height: 230px;">
-                                        <!-- item-->
+                                        <!-- Notification Bar-->
                                         <a href="javascript:void(0);" class="dropdown-item notify-item">
                                             <div class="notify-icon bg-primary">
                                                 <i class="mdi mdi-comment-account-outline"></i>
                                             </div>
-                                            <p class="notify-details">Akash added a new feed post.
+                                            <p class="notify-details">Akash added a new Horizon Feed.
                                                 <small class="text-muted">1 min ago</small>
                                             </p>
                                         </a>
@@ -162,7 +162,7 @@
                                             <div class="notify-icon bg-primary">
                                                 <i class="mdi mdi-comment-account-outline"></i>
                                             </div>
-                                            <p class="notify-details">Anjana added a new feed post.
+                                            <p class="notify-details">Anjana added a new Horizon Feed.
                                                 <small class="text-muted">5 hours ago</small>
                                             </p>
                                         </a>
@@ -172,7 +172,7 @@
                                             <div class="notify-icon bg-primary">
                                                 <i class="mdi mdi-comment-account-outline"></i>
                                             </div>
-                                            <p class="notify-details">Nikhil added a new feed post.
+                                            <p class="notify-details">Nikhil added a new Horizon Feed.
                                                 <small class="text-muted">1 days ago</small>
                                             </p>
                                         </a>
@@ -183,7 +183,7 @@
                                         class="dropdown-item text-center text-primary notify-item notify-all">
                                         View All
                                     </a>
-
+                                    <!-- End of Notification bar-->
                                 </div>
                             </li>
 
@@ -284,7 +284,7 @@
                     </div>
                     <!-- end row -->
 
-
+                        <!-- Adding Weavy file browsing components -->
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="card section-customer" data-customer-id="acme">
@@ -325,6 +325,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="text-md-right footer-links d-none d-md-block">
+                            &#169;Team Inevitables 2021 &nbsp;&nbsp;&nbsp;
                                 <a href="javascript: void(0);">About</a>
                                 <a href="javascript: void(0);">Support</a>
                                 <a href="javascript: void(0);">Contact Us</a>

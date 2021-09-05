@@ -133,7 +133,7 @@
                                             <div class="notify-icon bg-primary">
                                                 <i class="mdi mdi-comment-account-outline"></i>
                                             </div>
-                                            <p class="notify-details">Akash added a new feed post.
+                                            <p class="notify-details">Akash added a new Horizon Feed.
                                                 <small class="text-muted">1 min ago</small>
                                             </p>
                                         </a>
@@ -143,7 +143,7 @@
                                             <div class="notify-icon bg-primary">
                                                 <i class="mdi mdi-comment-account-outline"></i>
                                             </div>
-                                            <p class="notify-details">Anjana added a new feed post.
+                                            <p class="notify-details">Anjana added a new Horizon Feed.
                                                 <small class="text-muted">5 hours ago</small>
                                             </p>
                                         </a>
@@ -153,7 +153,7 @@
                                             <div class="notify-icon bg-primary">
                                                 <i class="mdi mdi-comment-account-outline"></i>
                                             </div>
-                                            <p class="notify-details">Nikhil added a new feed post.
+                                            <p class="notify-details">Nikhil added a new Horizon Feed.
                                                 <small class="text-muted">1 days ago</small>
                                             </p>
                                         </a>
@@ -184,7 +184,7 @@
                                             class="rounded-circle">
                                     </span>
                                     <span>
-                                        <span class="account-user-name">Learn in 3d</span>
+                                        <span class="account-user-name">Learn in 3D</span>
                                         <span class="account-position">Horizon Initiative</span>
                                     </span>
                                 </a>
