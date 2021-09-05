@@ -46,7 +46,7 @@
                             </a>
                             <ul class="side-nav-second-level mm-show" aria-expanded="false">
                                 <li>
-                                    <a href="./student.php">Home</a>
+                                    <a href="./student.php"><i class="dripicons-meter"></i> &nbsp;Home</a>
                                 </li>
                             </ul>
                         </li>
