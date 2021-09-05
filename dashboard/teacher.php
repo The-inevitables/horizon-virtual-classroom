@@ -47,7 +47,7 @@
 
                         <li class="side-nav-item mm-open">
                             <a href="javascript: void(0);" class="side-nav-link">
-                                <i class="dripicons-meter"></i>
+                                <i class="dripicons-home"></i>
                                 <span> Dashboards </span>
                             </a>
                             <ul class="side-nav-second-level mm-show" aria-expanded="false">
@@ -59,7 +59,7 @@
 
                         <li class="side-nav-item">
                             <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-copy"></i>
+                                <i class="dripicons-user-group"></i>
                                 <span> Department </span>
                             </a>
                             <ul class="side-nav-second-level mm-show" aria-expanded="false">
@@ -71,35 +71,35 @@
 
                         <li class="side-nav-item">
                             <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-copy"></i>
+                                <i class="dripicons-clipboard"></i>
                                 <span> Assignment </span>
                             </a>
                         </li>
 
                         <li class="side-nav-item">
                             <a href="exam.php" class="side-nav-link mm-active">
-                                <i class="dripicons-copy"></i>
+                                <i class="dripicons-document-edit"></i>
                                 <span> Class Tests Evaluation </span>
                             </a>
                         </li>
 
                         <li class="side-nav-item">
                             <a href="threemodels.php" target="_blank" class="side-nav-link mm-active">
-                                <i class="dripicons-copy"></i>
+                                <i class="dripicons-graduation"></i>
                                 <span> Learn in 3d  </span>
                             </a>
                         </li>
 
                         <li class="side-nav-item">
                             <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-copy"></i>
+                                <i class="dripicons-archive"></i>
                                 <span> Library </span>
                             </a>
                         </li>
 
                         <li class="side-nav-item">
                             <a href="feeds.php" target="_blank" class="side-nav-link mm-active">
-                                <i class="dripicons-copy"></i>
+                                <i class="dripicons-feed"></i>
                                 <span> Student Feeds  </span>
                             </a>
                         </li>
