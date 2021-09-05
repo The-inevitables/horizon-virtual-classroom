@@ -17,7 +17,7 @@
         }
         #feed-container {
                             width: 100%;
-                            height: 400px;
+                            height: 550px;
                          }
         #tasks-container {
                             width: 100%;
@@ -263,16 +263,7 @@
                 <div class="container-fluid">
 
                     <div class="row">
-                        <div class="col-lg-6">
-                            <div class="card section-customer" data-customer-id="acme">
-                                <div class="card-body">
-                                    <h4 class="header-title mb-3">Horizon Feeds</h4>
 
-                                    <div id="feed-container"></div>
-
-                                </div>
-                            </div>
-                        </div>
                         <!-- end of horizon Widget -->
                         <!-- Task Manager-->
                         <div class="col-lg-6">
@@ -281,6 +272,16 @@
                                     <h4 class="header-title mb-3">Tasks</h4>
 
                                     <div id="tasks-container"></div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="card section-customer" data-customer-id="acme">
+                                <div class="card-body">
+                                    <h4 class="header-title mb-3">Horizon Feeds</h4>
+
+                                    <div id="feed-container"></div>
 
                                 </div>
                             </div>
