@@ -52,12 +52,12 @@
 
                         <li class="side-nav-item mm-open">
                             <a href="javascript: void(0);" class="side-nav-link">
-                                <i class="dripicons-meter"></i>
+                                <i class="dripicons-home"></i>
                                 <span> Dashboards </span>
                             </a>
                             <ul class="side-nav-second-level mm-show" aria-expanded="false">
                                 <li>
-                                    <a href="../index.php">Home</a>
+                                    <a href="../index.php"><i class="dripicons-meter"></i> &nbsp;Home</a>
                                 </li>
                             </ul>
                         </li>
@@ -65,35 +65,35 @@
 
                         <li class="side-nav-item">
                             <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-copy"></i>
+                                <i class="dripicons-clipboard"></i>
                                 <span> Assignment </span>
                             </a>
                         </li>
 
                         <li class="side-nav-item">
                             <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-copy"></i>
+                                <i class="dripicons-document-edit"></i>
                                 <span> Class Tests </span>
                             </a>
                         </li>
 
                         <li class="side-nav-item">
                             <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-copy"></i>
+                                <i class="dripicons-ticket"></i>
                                 <span> Calender </span>
                             </a>
                         </li>
 
                         <li class="side-nav-item">
                             <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-copy"></i>
+                                <i class="dripicons-archive"></i>
                                 <span> Library </span>
                             </a>
                         </li>
 
                         <li class="side-nav-item">
                             <a href="threemodels.php" target="_blank" class="side-nav-link mm-active">
-                                <i class="dripicons-copy"></i>
+                                <i class="dripicons-pin"></i>
                                 <span> Learn in 3d  </span>
                             </a>
                         </li>
