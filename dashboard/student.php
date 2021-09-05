@@ -256,13 +256,14 @@
                     <!-- end Topbar -->
 
                 </div>
+                <!-- start Topbar -->
                 <div id="horizontal-topbar-placeholder"></div>
 
-                <!-- Start Content-->
+                <!-- Horizon Feeds in Dashboard-->
                 <div class="container-fluid">
 
                     <div class="row">
-                        <div class="col-lg-12">
+                        <div class="col-lg-6">
                             <div class="card section-customer" data-customer-id="acme">
                                 <div class="card-body">
                                     <h4 class="header-title mb-3">Horizon Feeds</h4>
@@ -272,19 +273,25 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- end col -->
+                        <!-- end of horizon Widget -->
+                        <!-- Task Manager-->
+                        <div class="col-lg-6">
+                            <div class="card section-customer" data-customer-id="acme">
+                                <div class="card-body">
+                                    <h4 class="header-title mb-3">Tasks</h4>
 
+                                    <div id="tasks-container"></div>
 
-                    
-
-
-                        <!-- end col-->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end of Task Manager-->
                         </div>
 
                     </div>
                     <!-- end row -->
 
-                        <!-- Adding Weavy file browsing components -->
+                    <!-- Adding Weavy file browsing components -->
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="card section-customer" data-customer-id="acme">
@@ -297,16 +304,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-6">
-                            <div class="card section-customer" data-customer-id="acme">
-                                <div class="card-body">
-                                    <h4 class="header-title mb-3">Tasks</h4>
-
-                                    <div id="tasks-container"></div>
-
-                                </div>
-                            </div>
-                        </div>
+                        
                     <!-- end row -->
 
 
