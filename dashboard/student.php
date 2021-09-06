@@ -92,8 +92,8 @@
                         </li>
 
                         <li class="side-nav-item">
-                            <a href="threemodels.php" target="_blank" class="side-nav-link mm-active">
-                                <i class="dripicons-pin"></i>
+                            <a href="HorizonFeeds.php" target="_blank" class="side-nav-link mm-active">
+                                <i class="dripicons-feed"></i>
                                 <span> Horizon Feeds  </span>
                             </a>
                         </li>
