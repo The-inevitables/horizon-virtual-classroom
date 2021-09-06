@@ -251,6 +251,9 @@
         <!-- ============================================================== -->
                 <div class="container-fluid">
 
+                <script async src="https://cse.google.com/cse.js?cx=4f1f4f1db857d1f27"></script>
+                <div class="gcse-search"></div>
+
                     <!-- Adding Weavy file browsing components -->
                         <div class="col-lg-12">
                             <div class="card section-customer" data-customer-id="acme">
