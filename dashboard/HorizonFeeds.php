@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <title>Horizon Feeds</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Storage spcace for ." name="description" />
+    <meta content="Social Media page for horizon" name="description" />
     <meta content="Coderthemes" name="author" />
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
