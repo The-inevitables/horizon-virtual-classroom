@@ -269,7 +269,9 @@
         <!-- Add page widgets and contents here -->
         <!-- ============================================================== -->
                 <div class="container-fluid">
-
+                            <div id="container-space"> 
+                                <br />
+                            </div>
                     <div class="row">
 
                         <!-- end of horizon Widget -->
@@ -284,6 +286,7 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- end of Task Manager-->
                         <div class="col-lg-6">
                             <div class="card section-customer" data-customer-id="acme">
                                 <div class="card-body">
@@ -294,7 +297,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- end of Task Manager-->
+                        <!-- end of Horizon Feeds-->
                         </div>
 
                     </div>
