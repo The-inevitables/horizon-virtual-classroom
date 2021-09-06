@@ -48,36 +48,42 @@
                             </a>
                             <ul class="side-nav-second-level mm-show" aria-expanded="false">
                                 <li>
-                                    <a href="./student.php"><i class="dripicons-meter"></i> &nbsp;Home</a>
+                                    <a href="./student.php"><i class="dripicons-exit"></i> &nbsp;Exit to Home</a>
                                 </li>
                             </ul>
                         </li>
 
-                        <li class="side-nav-item">
+                        <!-- <li class="side-nav-item">
                             <a href="javascript: void(0);" class="side-nav-link mm-active">
                                 <i class="dripicons-clipboard"></i>
                                 <span> Assignment </span>
                             </a>
-                        </li>
+                        </li> -->
 
-                        <li class="side-nav-item">
+                        <!-- <li class="side-nav-item">
                             <a href="javascript: void(0);" class="side-nav-link mm-active">
                                 <i class="dripicons-document-edit"></i>
                                 <span> Class Tests </span>
                             </a>
-                        </li>
-
+                        </li> -->
+<!-- 
                         <li class="side-nav-item">
                             <a href="javascript: void(0);" class="side-nav-link mm-active">
                                 <i class="dripicons-calendar"></i>
                                 <span> Calender </span>
                             </a>
-                        </li>
+                        </li> -->
 
-                        <li class="side-nav-item">
+                        <!-- <li class="side-nav-item">
                             <a href="javascript: void(0);" class="side-nav-link mm-active">
                                 <i class="dripicons-archive"></i>
                                 <span> Library </span>
+                            </a>
+                        </li> -->
+                        <li class="side-nav-item">
+                            <a href="threemodels.php" target="_blank" class="side-nav-link mm-active">
+                                <i class="dripicons-archive"></i>
+                                <span> 3D Learning section  </span>
                             </a>
                         </li>
 
@@ -186,7 +192,7 @@
                                             class="rounded-circle">
                                     </span>
                                     <span>
-                                        <span class="account-user-name">Learn in 3D</span>
+                                        <span class="account-user-name">Digital Library</span>
                                         <span class="account-position">Horizon Initiative</span>
                                     </span>
                                 </a>
@@ -246,10 +252,10 @@
                 <div class="container-fluid">
 
                     <!-- Adding Weavy file browsing components -->
-                        <div class="col-lg-6">
+                        <div class="col-lg-12">
                             <div class="card section-customer" data-customer-id="acme">
                                 <div class="card-body">
-                                    <h4 class="header-title mb-3">Files</h4>
+                                    <h4 class="header-title mb-4">Digi-Library</h4>
 
                                     <div id="weavy-files-container"></div>
 
@@ -273,6 +279,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="text-md-right footer-links d-none d-md-block">
+                            &#169;Team Inevitables 2021 &nbsp;&nbsp;&nbsp;
                                 <a href="javascript: void(0);">About</a>
                                 <a href="javascript: void(0);">Support</a>
                                 <a href="javascript: void(0);">Contact Us</a>
