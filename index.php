@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Horizon</title>
+		<title style="times-new-roman">Horizon</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		<link type="text/css" rel="stylesheet" href="main.css">
@@ -43,8 +43,8 @@
 	</head>
 
 	<body>
-		<div id="info">
-			<h1>Horizon</h1><h2>The Virtual Classroom</h2><br/>
+		<div id="info" style="font-family:Comic Sans MS">
+			<h1 >Horizon</h1><h2>The Virtual Classroom</h2><br/>
 			<a href= "teacherlogin.php">Teacher</a>
 			<a href= "studentlogin.php">Student</a>
 
