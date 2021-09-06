@@ -67,6 +67,39 @@
 						<span class="focus-input100"></span>
 					</div>
 
+
+					<div class="p-t-31 p-b-9">
+						<span class="txt1">
+							School
+						</span>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate = "School is required">
+						<input class="input100" type="text" name="school" >
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="p-t-31 p-b-9">
+						<span class="txt1">
+							Class
+						</span>
+					</div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 select-section">
+                                 <div class="row">
+                                    
+                                    <div class="wrap-input100 validate-input">
+                                       <select class="form-control" name="class">
+                                          <option>Select</option>
+                                          <option>V</option>
+                                          <option>VI</option>
+                                          <option>VII</option>
+                                          <option>VIII</option>
+                                          <option>IX</option>
+                                          <option>X</option>
+                                          
+                                       </select>
+                                    </div>
+                                 </div>
+                    </div>
 					<div class="p-t-31 p-b-9">
 						<span class="txt1">
 							Email
@@ -76,25 +109,12 @@
 						<input class="input100" type="text" name="email" >
 						<span class="focus-input100"></span>
 					</div>
-
-					<div class="p-t-31 p-b-9">
-						<span class="txt1">
-							College
-						</span>
-					</div>
-					<div class="wrap-input100 validate-input" data-validate = "College is required">
-						<input class="input100" type="text" name="college" >
-						<span class="focus-input100"></span>
-					</div>
 					
 					<div class="p-t-13 p-b-9">
 						<span class="txt1">
 							Password
 						</span>
 
-						<a href="#" class="txt2 bo1 m-l-5">
-							Forgot?
-						</a>
 					</div>
 					<div class="wrap-input100 validate-input" data-validate = "Password is required">
 						<input class="input100" type="password" name="password" >
