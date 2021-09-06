@@ -1,5 +1,4 @@
-# Horizon 
-# The Virtual Classroom
+# Horizon  The Virtual Classroom
 
 Pandemic has caused the education sector to look into new possibilities and new interactive methods. We aim at providing a new platform to make education online, more efficient with a lot of fun and extra curricular activities. We give emphasis on a social media inspired education web app, a virtual classroom that can help students as well as teachers learn ,teach and conduct exams in a single platform!
 
