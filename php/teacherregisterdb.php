@@ -10,7 +10,7 @@ $password =  $_POST['password'];
 
 
 $params = array($firstname,$lastname,$email,$subject,$password);
-$sql="INSERT INTO teacher (firstname,lastname, email, subject, password)
+$sql="INSERT INTO teachers (firstname,lastname, email, subject, password)
 VALUES ( ?,?,?,?,?)";
 
 $stmt = sqlsrv_query($conn, $sql, $params);

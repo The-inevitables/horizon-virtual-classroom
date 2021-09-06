@@ -1,33 +1,25 @@
 <?php
-$servername = "sql113.epizy.com";
-$username = "epiz_29571242";
-$password = "IvGlLVsaTtOVzH3";
-$dbname = "epiz_29571242_virtualclassdb";
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+include 'db.php';
 
 $firstname =  $_POST['firstname'];
-$lastname =  $_POST['lastname'];
-$email =  $_POST['email']; 
-$college =  $_POST['college'];
+$lastname =  $_POST['lastname']; 
+$school =  $_POST['school'];
+$class =  $_POST['class'];
+$email =  $_POST['email'];
 $password =  $_POST['password'];
 
 
-$sql = "INSERT INTO `users` (`id`, `firstname`, `lastname`, `email`, `college`, `password`)
-VALUES (NULL, '$firstname', '$lastname','$email','$college','$password')";
+$params = array($firstname,$lastname,$school,$class,$email,$password);
+$sql="INSERT INTO students (firstname,lastname,school,class,email, password)
+VALUES ( ?,?,?,?,?,?)";
 
+$stmt = sqlsrv_query($conn, $sql, $params);
+if ($stmt === false) {  
+    echo "Row insertion failed.\n";  
+    die(print_r(sqlsrv_errors(), true));  
+} else {  
+    header('location: ../studentlogin.php');  
+} 
 
-if ($conn->query($sql) === TRUE) {
-    $last_id = $conn->insert_id;
-    header('location: ../studentlogin.php');
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
-}
-
-$conn->close();
 ?>
