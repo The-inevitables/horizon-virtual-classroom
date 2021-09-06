@@ -15,8 +15,8 @@ Start the apache server and go to ``` localhost/{name of the folder}```
 
 ## DEPLOYMENT
 
-```[webapp link](https://horizon-vclass.azurewebsites.net)```
+[webapp link](https://horizon-vclass.azurewebsites.net)
 
-```[weavy azure link](https://horizond.azurewebsites.net/)```
+[weavy azure link](https://horizond.azurewebsites.net/)
 
 
