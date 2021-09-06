@@ -151,7 +151,7 @@ if(!isset($_SESSION['access_token']))
 
 					<div class="w-full text-center p-t-55">
 						<span class="txt2">
-							Not a member?
+							New to Horizon?
 						</span>
 
 						<a href="teacherregister.php" class="txt2 bo1">
