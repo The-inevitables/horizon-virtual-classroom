@@ -87,7 +87,14 @@
                         <li class="side-nav-item">
                             <a href="javascript: void(0);" class="side-nav-link mm-active">
                                 <i class="dripicons-archive"></i>
-                                <span> Library </span>
+                                <span> Digi-Library </span>
+                            </a>
+                        </li>
+
+                        <li class="side-nav-item">
+                            <a href="threemodels.php" target="_blank" class="side-nav-link mm-active">
+                                <i class="dripicons-pin"></i>
+                                <span> Horizon Feeds  </span>
                             </a>
                         </li>
 
