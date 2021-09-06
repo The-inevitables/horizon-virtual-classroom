@@ -85,7 +85,7 @@
                         </li>
 
                         <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
+                            <a href="./Digilibrary.php" class="side-nav-link mm-active">
                                 <i class="dripicons-archive"></i>
                                 <span> Digi-Library </span>
                             </a>
