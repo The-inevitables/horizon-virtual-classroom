@@ -115,7 +115,7 @@
                                         <li class="breadcrumb-item active">Tests</li>
                                     </ol>
                                 </div>
-                                <h4 class="page-title">Online Test Centre</h4>
+                                <h4 class="page-title">Horizon Test Centre</h4>
                             </div>
                         </div>
                 </div>
