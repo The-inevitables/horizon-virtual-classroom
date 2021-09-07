@@ -64,7 +64,7 @@
 
 
                         <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
+                            <a href="assignment.php" class="side-nav-link mm-active">
                                 <i class="dripicons-clipboard"></i>
                                 <span> Assignment </span>
                             </a>
