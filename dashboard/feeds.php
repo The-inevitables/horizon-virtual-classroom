@@ -17,7 +17,7 @@
         }
         #feed-container {
                             width: 100%;
-                            height: 600px;
+                            height: 750px;
                          }  
     </style>
 
@@ -52,7 +52,7 @@
                             </a>
                             <ul class="side-nav-second-level mm-show" aria-expanded="false">
                                 <li>
-                                    <a href="../index.php"><i class="dripicons-skip"></i>&nbsp;&nbsp;Home</a>
+                                    <a href="../index.php"><i class="dripicons-exit"></i> &nbsp;Exit to Home</a>
                                 </li>
                             </ul>
                         </li>

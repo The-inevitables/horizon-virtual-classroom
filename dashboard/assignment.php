@@ -8,7 +8,7 @@
     <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
     <meta content="Coderthemes" name="author" />
     <!-- App favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" href="assets/images/Horizon.svg">
 
     <!-- inline style to handle loading of various element-->
     <style>
@@ -52,36 +52,36 @@
                             </a>
                             <ul class="side-nav-second-level mm-show" aria-expanded="false">
                                 <li>
-                                    <a href="../index.php">Home</a>
+                                    <a href="../index.php"><i class="dripicons-exit"></i> &nbsp; Back to Home</a>
                                 </li>
                             </ul>
                         </li>
 
                         <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-copy"></i>
+                            <a href="assignment.php" class="side-nav-link mm-active">
+                                <i class="dripicons-clipboard"></i>
                                 <span> Assignment </span>
                             </a>
                         </li>
 
                         <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-copy"></i>
+                            <a href="onlinetest.php" class="side-nav-link mm-active">
+                                <i class="dripicons-document-edit"></i>
                                 <span> Class Tests </span>
                             </a>
                         </li>
 
                         <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-copy"></i>
+                            <a href="calender.php" class="side-nav-link mm-active">
+                                <i class="dripicons-calendar"></i>
                                 <span> Calender </span>
                             </a>
                         </li>
 
                         <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-copy"></i>
-                                <span> Library </span>
+                            <a href="./Digilibrary.php" class="side-nav-link mm-active">
+                                <i class="dripicons-archive"></i>
+                                <span> Digi-Library </span>
                             </a>
                         </li>
 
@@ -96,6 +96,7 @@
             <!-- Left Sidebar End -->
         </div>
         <div id="detached-sidebar-placeholder"></div>
+        
 
         <!-- ============================================================== -->
         <!-- Start Page Content here -->
@@ -110,7 +111,7 @@
                         <div class="col-12">
                             <div class="page-title-box">
                                 
-                                <h4 class="page-title">Assignment Submission</h4>
+                                <h4 class="page-title">Assignment Submission Portal</h4>
                             </div>
                         </div>
                     </div>

@@ -3,12 +3,12 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Calender</title>
+    <title>Calender | Horizon</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
     <meta content="Coderthemes" name="author" />
     <!-- App favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" href="assets/images/Horizon.svg">
 
     <!-- inline style to handle loading of various element-->
     <style>
@@ -47,36 +47,36 @@
                             </a>
                             <ul class="side-nav-second-level mm-show" aria-expanded="false">
                                 <li>
-                                    <a href="../index.php">Home</a>
+                                    <a href="../index.php"><i class="dripicons-exit"></i> &nbsp;Home</a>
                                 </li>
                             </ul>
                         </li>
 
                         <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-copy"></i>
+                            <a href="assignment.php" class="side-nav-link mm-active">
+                                <i class="dripicons-clipboard"></i>
                                 <span> Assignment </span>
                             </a>
                         </li>
 
                         <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-copy"></i>
+                            <a href="onlinetest.php" class="side-nav-link mm-active">
+                                <i class="dripicons-document-edit"></i>
                                 <span> Class Tests </span>
                             </a>
                         </li>
 
                         <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-copy"></i>
+                            <a href="calender.php" class="side-nav-link mm-active">
+                                <i class="dripicons-calendar"></i>
                                 <span> Calender </span>
                             </a>
                         </li>
 
                         <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-copy"></i>
-                                <span> Library </span>
+                            <a href="./Digilibrary.php" class="side-nav-link mm-active">
+                                <i class="dripicons-archive"></i>
+                                <span> Digi-Library </span>
                             </a>
                         </li>
 
@@ -107,7 +107,7 @@
                     <div class="col-lg-12">
                             <div class="card section-customer" data-customer-id="acme">
                                 <div class="card-body">
-                                    <h4 class="header-title mb-3">Google Calender</h4>
+                                    <h4 class="header-title mb-3">Horizon Calender</h4>
 
                                     <iframe src="https://calendar.google.com/calendar/embed?src=arjunraj.pala%40gmail.com&ctz=Asia%2FKolkata" style="border: 0" width="1200" height="700" frameborder="0" scrolling="no"></iframe>
 
