@@ -250,6 +250,22 @@
         <!-- Page contents! -->
         <!-- ============================================================== -->
                 <div class="container-fluid">
+                <div class="row">
+                    <!-- Heading and routes here! -->
+                    
+                        <div class="col-12">
+                            <div class="page-title-box">
+                                <div class="page-title-right">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="../index.php">Horizon</a></li>
+                                        <li class="breadcrumb-item"><a href="student.php">Dashboard</a></li>
+                                        <li class="breadcrumb-item active">Digi-library</li>
+                                    </ol>
+                                </div>
+                                <h4 class="page-title">Welcome to Horizon Library</h4>
+                            </div>
+                        </div>
+                    </div>
 
                 <script async src="https://cse.google.com/cse.js?cx=4f1f4f1db857d1f27"></script>
                 <div class="gcse-search"></div>

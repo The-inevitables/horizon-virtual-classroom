@@ -100,31 +100,34 @@
         <!-- ============================================================== -->
         <!-- Start Page Content here -->
         <!-- ============================================================== -->
-
         <div class="content-page">
-            <div class="content">
-                
-                
-
-
+             <div class="content">
+                <div class="container-fluid">
+                 <div class="row">
+                    <!-- Heading and routes here! -->
                     
-                    
-                        
-                            <div class="card section-customer" data-customer-id="acme">
+                        <div class="col-12">
+                            <div class="page-title-box">
+                                <div class="page-title-right">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="../index.php">Horizon</a></li>
+                                        <li class="breadcrumb-item"><a href="student.php">Dashboard</a></li>
+                                        <li class="breadcrumb-item active">Tests</li>
+                                    </ol>
+                                </div>
+                                <h4 class="page-title">Online Test Centre</h4>
+                            </div>
+                        </div>
+                </div>
+                <div class="card section-customer" data-customer-id="acme">
 
-                            <iframe src="https://www.classmarker.com/online-test/start/?quiz=fmj61361d9d8f9ca&iframe=1" frameborder="0" style="width:100%;" height="800"></iframe>
+                    <iframe src="https://www.classmarker.com/online-test/start/?quiz=fmj61361d9d8f9ca&iframe=1" frameborder="0" style="width:100%;" height="800"></iframe>
                             
-                            </div>   
-                    
-                    
-
-
-                            
-
-            </div>                  
-
-        </div>
-
+                </div>   
+               </div>                  
+             </div>
+         </div>    
+        
         <!-- ============================================================== -->
         <!-- End Page content -->
         <!-- ============================================================== -->

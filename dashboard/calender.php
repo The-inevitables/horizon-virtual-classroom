@@ -47,7 +47,7 @@
                             </a>
                             <ul class="side-nav-second-level mm-show" aria-expanded="false">
                                 <li>
-                                    <a href="../index.php"><i class="dripicons-exit"></i> &nbsp;Home</a>
+                                    <a href="../index.php"><i class="dripicons-exit"></i> &nbsp;Exit to Home</a>
                                 </li>
                             </ul>
                         </li>
@@ -101,6 +101,22 @@
                 
                 <!-- Start Content-->
                 <div class="container-fluid">
+                <div class="row">
+                    <!-- Heading and routes here! -->
+                    
+                        <div class="col-12">
+                            <div class="page-title-box">
+                                <div class="page-title-right">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="../index.php">Horizon</a></li>
+                                        <li class="breadcrumb-item"><a href="student.php">Dashboard</a></li>
+                                        <li class="breadcrumb-item active">Calender</li>
+                                    </ol>
+                                </div>
+                                <h4 class="page-title">Welcome to Horizon Calender</h4>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="row">
                     

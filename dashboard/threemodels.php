@@ -46,36 +46,36 @@
                             </a>
                             <ul class="side-nav-second-level mm-show" aria-expanded="false">
                                 <li>
-                                    <a href="./student.php"><i class="dripicons-meter"></i> &nbsp;Home</a>
+                                    <a href="./student.php"><i class="dripicons-exit"></i> &nbsp;Back to Home</a>
                                 </li>
                             </ul>
                         </li>
 
                         <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
+                            <a href="assignment.php" class="side-nav-link mm-active">
                                 <i class="dripicons-clipboard"></i>
                                 <span> Assignment </span>
                             </a>
                         </li>
 
                         <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
+                            <a href="onlinetest.php" class="side-nav-link mm-active">
                                 <i class="dripicons-document-edit"></i>
                                 <span> Class Tests </span>
                             </a>
                         </li>
 
                         <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
+                            <a href="calender.php" class="side-nav-link mm-active">
                                 <i class="dripicons-calendar"></i>
                                 <span> Calender </span>
                             </a>
                         </li>
 
                         <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
+                            <a href="./Digilibrary.php" class="side-nav-link mm-active">
                                 <i class="dripicons-archive"></i>
-                                <span> Library </span>
+                                <span> Digi-Library </span>
                             </a>
                         </li>
 
@@ -242,13 +242,30 @@
         <!-- Page contents! -->
         <!-- ============================================================== -->
                 <div class="container-fluid">
+                <div class="row">
+                    <!-- Heading and routes here! -->
+                    
+                        <div class="col-12">
+                            <div class="page-title-box">
+                                <div class="page-title-right">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="../index.php">Horizon</a></li>
+                                        <li class="breadcrumb-item"><a href="student.php">Dashboard</a></li>
+                                        <li class="breadcrumb-item"><a href="Digilibrary.php">Digi-Library</a></li>
+                                        <li class="breadcrumb-item active">3D Models</li>
+                                    </ol>
+                                </div>
+                                <h4 class="page-title">Welcome to Horizon 3D Learning Centre</h4>
+                            </div>
+                        </div>
+                    </div>
 
                     <!-- start page title -->
                     <div class="row">
                         <div class="col-12">
                             <div class="page-title-box">
                                 
-                                <h4 class="page-title">3D Models : Biology</h4>
+                                <h4 class="page-title">Subject : Biology</h4>
                             </div>
                         </div>
                     </div>

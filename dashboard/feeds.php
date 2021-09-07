@@ -58,30 +58,30 @@
                         </li>
 
                         <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
-                            <i class="dripicons-clipboard"></i>
+                            <a href="assignment.php" class="side-nav-link mm-active">
+                                <i class="dripicons-clipboard"></i>
                                 <span> Assignment </span>
                             </a>
                         </li>
 
                         <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
-                            <i class="dripicons-document-edit"></i>
+                            <a href="onlinetest.php" class="side-nav-link mm-active">
+                                <i class="dripicons-document-edit"></i>
                                 <span> Class Tests </span>
                             </a>
                         </li>
 
                         <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
-                            <i class="dripicons-calendar"></i>
+                            <a href="calender.php" class="side-nav-link mm-active">
+                                <i class="dripicons-calendar"></i>
                                 <span> Calender </span>
                             </a>
                         </li>
 
                         <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
-                            <i class="dripicons-archive"></i>
-                                <span> Library </span>
+                            <a href="./Digilibrary.php" class="side-nav-link mm-active">
+                                <i class="dripicons-archive"></i>
+                                <span> Digi-Library </span>
                             </a>
                         </li>
 
@@ -107,6 +107,22 @@
 
                 <!-- Start Content-->
                 <div class="container-fluid">
+                <div class="row">
+                    <!-- Heading and routes here! -->
+                    
+                        <div class="col-12">
+                            <div class="page-title-box">
+                                <div class="page-title-right">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="../index.php">Horizon</a></li>
+                                        <li class="breadcrumb-item"><a href="student.php">Dashboard</a></li>
+                                        <li class="breadcrumb-item active">Feeds</li>
+                                    </ol>
+                                </div>
+                                <h4 class="page-title">Welcome to Horizon Information Hub</h4>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="row">
 
