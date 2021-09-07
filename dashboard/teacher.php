@@ -53,19 +53,19 @@
                             </a>
                             <ul class="side-nav-second-level mm-show" aria-expanded="false">
                                 <li>
-                                    <a href="../index.php">Home</a>
+                                    <a href="../index.php"><i class="dripicons-skip"></i>&nbsp;&nbsp;Home</a>
                                 </li>
                             </ul>
                         </li>
 
                         <li class="side-nav-item">
                             <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-user-group"></i>
+                                <i class="dripicons-graduation"></i>
                                 <span> Department </span>
                             </a>
                             <ul class="side-nav-second-level mm-show" aria-expanded="false">
                                 <li class="mm-active">
-                                    <a href="customer.html">Students</a>
+                                    <a href="customer.html"><i class="dripicons-skip"></i>&nbsp;&nbsp;Students</a>
                                 </li>
                             </ul>
                         </li>
@@ -92,7 +92,7 @@
                         </li>
 
                         <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
+                            <a href="Digilibrary.php" class="side-nav-link mm-active">
                                 <i class="dripicons-archive"></i>
                                 <span> Library </span>
                             </a>
