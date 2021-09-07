@@ -269,8 +269,10 @@
         <!-- Add page widgets and contents here -->
         <!-- ============================================================== -->
                 <div class="container-fluid">
-                            <div id="container-space"> 
-                                <br />
+                            <div id="container-space">
+                                </br> 
+                                <h4 class="page-title">Welcome to Horizon, Student.</h4>
+                                </br>
                             </div>
                     <div class="row">
 

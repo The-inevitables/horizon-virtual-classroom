@@ -169,7 +169,7 @@
                                             <div class="notify-icon bg-primary">
                                                 <i class="mdi mdi-comment-account-outline"></i>
                                             </div>
-                                            <p class="notify-details">Aleena submitted assignment.
+                                            <p class="notify-details">Arjun submitted assignment.
                                                 <small class="text-muted">5 hours ago</small>
                                             </p>
                                         </a>
@@ -273,7 +273,7 @@
                         <div class="col-12">
                             <div class="page-title-box">
                                 
-                                <h4 class="page-title">Teacher</h4>
+                                <h4 class="page-title">Welcome to Horizon, Teacher.</h4>
                             </div>
                         </div>
                     </div>
