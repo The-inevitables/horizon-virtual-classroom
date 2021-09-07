@@ -71,14 +71,14 @@
                         </li>
 
                         <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
+                            <a href="onlinetest.php" class="side-nav-link mm-active">
                                 <i class="dripicons-document-edit"></i>
                                 <span> Class Tests </span>
                             </a>
                         </li>
 
                         <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
+                            <a href="calender.php" class="side-nav-link mm-active">
                                 <i class="dripicons-calendar"></i>
                                 <span> Calender </span>
                             </a>
