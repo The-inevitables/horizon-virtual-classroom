@@ -8,7 +8,7 @@
     <meta content="Storage spcace for ." name="description" />
     <meta content="Coderthemes" name="author" />
     <!-- App favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" href="assets/images/Horizon.svg">
 
     <!-- inline style to handle loading of various element-->
     <style>

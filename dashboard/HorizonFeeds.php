@@ -8,7 +8,7 @@
     <meta content="Social Media page for horizon" name="description" />
     <meta content="Coderthemes" name="author" />
     <!-- App favicon -->
-    <link rel="shortcut icon" href="assets/images/logo.svg">
+    <link rel="shortcut icon" href="assets/images/Horizon.svg">
 
     <!-- inline style to handle loading of various element-->
     <style>
