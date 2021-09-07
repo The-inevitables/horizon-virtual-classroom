@@ -270,12 +270,22 @@
 
                     <!-- start page title -->
                     <div class="row">
-                        <div class="col-12">
+                    <!-- Heading and routes here! -->
+                    
+                    <div class="col-12">
                             <div class="page-title-box">
-                                
+                                <div class="page-title-right">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="../index.php">Horizon</a></li>
+                                        <li class="breadcrumb-item"><a href="teacher.php">Dashboard</a></li>
+                                        <li class="breadcrumb-item active">Teacher</li>
+                                    </ol>
+                                </div>
                                 <h4 class="page-title">Welcome to Horizon, Teacher.</h4>
                             </div>
                         </div>
+                    </div>
+                    <!-- end of routes! -->
                     </div>
                     <!-- end page title -->
 
