@@ -65,7 +65,7 @@
                             </a>
                             <ul class="side-nav-second-level mm-show" aria-expanded="false">
                                 <li class="mm-active">
-                                    <a href="customer.html"><i class="dripicons-skip"></i>&nbsp;&nbsp;Students</a>
+                                    <a href="studentlist.php"><i class="dripicons-skip"></i>&nbsp;&nbsp;Students</a>
                                 </li>
                             </ul>
                         </li>
