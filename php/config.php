@@ -15,7 +15,7 @@ $google_client->setClientId('187139219005-jqpj4ath81su698qmj06st2mtbb3e3r8.apps.
 $google_client->setClientSecret('TymhxltAjBEelEHZO6GzgFh-');
 
 //Set the OAuth 2.0 Redirect URI
-$google_client->setRedirectUri('https://horizon-weavy.herokuapp.com/dashboard/student.php');
+$google_client->setRedirectUri('https://horizon-vclass.azurewebsites.net/dashboard/student.php');
 
 //
 $google_client->addScope('email');
