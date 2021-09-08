@@ -21,6 +21,7 @@
     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="main-style-container" />
     <link href="assets/css/weavy.css" rel="stylesheet" type="text/css" />
+    <!-- Adding weavy authentication elements -->
     <script src="https://horizond.azurewebsites.net/javascript/weavy.jquery.js"></script>
     <script>var weavy = new Weavy();</script>
 </head>
@@ -52,34 +53,6 @@
                                 </li>
                             </ul>
                         </li>
-
-                        <!-- <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-clipboard"></i>
-                                <span> Assignment </span>
-                            </a>
-                        </li> -->
-
-                        <!-- <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-document-edit"></i>
-                                <span> Class Tests </span>
-                            </a>
-                        </li> -->
-<!-- 
-                        <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-calendar"></i>
-                                <span> Calender </span>
-                            </a>
-                        </li> -->
-
-                        <!-- <li class="side-nav-item">
-                            <a href="javascript: void(0);" class="side-nav-link mm-active">
-                                <i class="dripicons-archive"></i>
-                                <span> Library </span>
-                            </a>
-                        </li> -->
                         <li class="side-nav-item">
                             <a href="threemodels.php" target="_blank" class="side-nav-link mm-active">
                                 <i class="dripicons-archive"></i>

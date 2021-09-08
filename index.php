@@ -5,15 +5,16 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		<link type="text/css" rel="stylesheet" href="main.css">
-
-
+		<!-- Adding 3js link to the index page -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>
 	</head>
 
 	<body>
+		<!-- ============================================================== -->
+        <!-- Adding Contents to te page -->
+        <!-- ============================================================== -->
 		<div id="info">
 			<div class="center">
-			<!-- <img src="images/logo.png" width="200" height="100"alt="horizon" > -->
 			<h1>Horizon</h1><h2>The Virtual Classroom</h2><br/>
 			<a href= "teacherlogin.php" class="btn-google m-b-20">
 			Teacher
@@ -23,10 +24,12 @@
 			</a>
 			</div>
 		</div>
+		<!-- ============================================================== -->
+        <!-- Adding 3js elements to the index page -->
+        <!-- ============================================================== -->
 
 		<script type="module">
 
-			// import * as THREE from '../build/three.module.js';
 
 			import Stats from './jsm/libs/stats.module.js';
 
@@ -181,6 +184,9 @@
 			}
 
 		</script>
+		<!-- ============================================================== -->
+        <!-- End of  3js elements  -->
+        <!-- ============================================================== -->
 
 	</body>
 </html>

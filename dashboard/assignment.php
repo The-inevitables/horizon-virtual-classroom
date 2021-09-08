@@ -21,10 +21,11 @@
                          }                 
     </style>
 
-    <!-- App css -->
+    <!-- App css  -->
     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="main-style-container" />
     <link href="assets/css/weavy.css" rel="stylesheet" type="text/css" />
+    <!-- Adding weavy authentication elements -->
     <script src="https://horizond.azurewebsites.net/javascript/weavy.jquery.js"></script>
     <script>var weavy = new Weavy();</script>
 </head>
