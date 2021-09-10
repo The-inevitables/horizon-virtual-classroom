@@ -19,4 +19,17 @@ Start the apache server and go to ``` localhost/{name of the folder}```
 
 [Weavy Instance](https://horizond.azurewebsites.net/)
 
+## Index
+
+![index page](https://user-images.githubusercontent.com/70442264/132801685-080b531a-83f1-4515-9a64-6c35403208f4.png)
+
+## Teacher Dashboard
+
+![teacher-dashboard](https://user-images.githubusercontent.com/70442264/132801722-e2238259-d9bf-4051-9d72-c41034865774.png)
+
+## Student Dashboard
+
+![student dashboard](https://user-images.githubusercontent.com/70442264/132801747-a995ee0a-3b28-4c5f-a68d-4fdfb3fd71ed.png)
+
+
 
