@@ -48,6 +48,7 @@ In order to add weavy features, we need to include a js file, create a space and
 
     // get or create the messenger app
     var messengerApp = space.app({key: "main-messenger", type: "messenger", container: "#weavy-messenger-container" });
+    ```
 
 Also you need to provide JWT for working. You can refer https://docs.weavy.com/client/authentication for more details about authentication.
 
