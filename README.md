@@ -10,7 +10,7 @@ We can also embed an interactive feed using Weavy Activity Feeds so that the stu
 
 Local Install:
 
-Download and Install XAMPP in your localmachine.
+Download and Install XAMPP in your local machine.
 Download and Extract the code to htdocs in xampp folder.
 Start the apache server and go to ``` localhost/{name of the folder}``` 
 
