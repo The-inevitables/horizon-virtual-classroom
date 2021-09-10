@@ -32,5 +32,20 @@ Start the apache server and go to ``` localhost/{name of the folder}```
 
 ![student dashboard](https://user-images.githubusercontent.com/70442264/132801747-a995ee0a-3b28-4c5f-a68d-4fdfb3fd71ed.png)
 
+## Weavy to App
 
+For working with weavy make sure you have a weavy instance either locally or in azure and must be up and running.
+
+In order to add weavy features, we need to include a js file and create a space and add the necessary code for connection. Add some css so that it is viewable from the browser. An example code is pined below
+
+  ```var space = weavy.space({key: "global" });
+    
+    // get or create the feeds
+    var feeds = space.app({ key: "feeds", type: "posts", container: "#feed-container" });
+    
+    // get or create the task
+    var tasks = space.app({ key: "tasks", type: "tasks", container: "#tasks-container" });
+
+    // get or create the messenger app
+    var messengerApp = space.app({key: "main-messenger", type: "messenger", container: "#weavy-messenger-container" });```
 
