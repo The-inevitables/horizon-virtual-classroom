@@ -38,7 +38,7 @@ For working with weavy make sure you have a weavy instance either locally or in 
 
 In order to add weavy features, we need to include a js file, create a space and add the necessary code for connection. Add some css so that it is viewable from the browser. An example code is pined below
 
-  ```var space = weavy.space({key: "global" });
+    var space = weavy.space({key: "global" });
     
     // get or create the feeds
     var feeds = space.app({ key: "feeds", type: "posts", container: "#feed-container" });
@@ -48,8 +48,8 @@ In order to add weavy features, we need to include a js file, create a space and
 
     // get or create the messenger app
     var messengerApp = space.app({key: "main-messenger", type: "messenger", container: "#weavy-messenger-container" });
-    ```
-
+ 
+##
 Also you need to provide JWT for working. You can refer https://docs.weavy.com/client/authentication for more details about authentication.
 
 For more details about weavy visit https://www.weavy.com/
