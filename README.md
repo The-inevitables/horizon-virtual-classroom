@@ -2,37 +2,23 @@
 
 Pandemic has caused the education sector to look into new possibilities and new interactive methods. We aim at providing a new platform to make education online, more efficient with a lot of fun and extra curricular activities. We give emphasis on a social media inspired education web app, a virtual classroom that can help students as well as teachers learn ,teach and conduct exams in a single platform!
 
-#WEAVY Features:
+# WEAVY Features:
 
-We can also embed an interactive feed using Weavy Activity Feeds so that the students can upload their extra curricular activities such as poem writing, essay writing, short story writing, etc. thus enhancing the non-scholastic activity. There will be an integrated zoom which can be easily integrated using weavy. The secure file sharing features enable as to develop a secure platform for transferring question papers with the students and answers from students without any third party api. The chat feature enables students to communicate with their teachers and also with other students. As there will be tasks assigned to all students, these can be easily done using the Weavy Tasks feature.
+We can also embed an interactive feed using Weavy Activity Feeds so that the students can upload their extra curricular activities such as poem writing, essay writing, short story writing, etc. Thus enhancing the non-scholastic activity. There will be an integrated zoom which can be easily integrated using weavy. The secure file sharing features enable as to develop a secure platform for transferring question papers with the students and answers from students without any third party api. The chat feature enables students to communicate with their teachers and also with other students. As there will be tasks assigned to all students, these can be easily done using the Weavy Tasks feature.
 
-## INSTALLATION
+## INSTALLATION STEPS
 
-Local Install:
+Installing Apache Server for local hosting:
 
-Download and Install XAMPP in your local machine.
-Download and Extract the code to htdocs in xampp folder.
-Start the apache server and go to ``` localhost/{name of the folder}``` 
+1. Download and Install XAMPP in your local machine.
+2. Download and Extract the code to htdocs in xampp folder.
+3. Start the apache server and go to ``` localhost/{name of the folder}``` 
 
-## DEPLOYMENT
-
-[HORIZON](https://horizon-vclass.azurewebsites.net)
-
-[Weavy Instance](https://horizond.azurewebsites.net/)
-
-## Index
-
-![index page](https://user-images.githubusercontent.com/70442264/132801685-080b531a-83f1-4515-9a64-6c35403208f4.png)
-
-## Teacher Dashboard
-
-![teacher-dashboard](https://user-images.githubusercontent.com/70442264/132801722-e2238259-d9bf-4051-9d72-c41034865774.png)
-
-## Student Dashboard
-
-![student dashboard](https://user-images.githubusercontent.com/70442264/132801747-a995ee0a-3b28-4c5f-a68d-4fdfb3fd71ed.png)
-
-## Weavy to App
+For public hosting:
+1. Deploy this code on a PHP Environment
+2. Deploy Weavy Instance as seperate. Use reference docs for more steps
+3. Connect to a SQL DB
+## Integrating Weavy framework to webapp
 
 For working with weavy make sure you have a weavy instance either locally or in azure and must be up and running.
 
@@ -50,8 +36,30 @@ In order to add weavy features, we need to include a js file, create a space and
     var messengerApp = space.app({key: "main-messenger", type: "messenger", container: "#weavy-messenger-container" });
  
 
-Also you need to provide JWT for working. You can refer https://docs.weavy.com/client/authentication for more details about authentication.
-##
+Also you need to provide JWT for working. 
+<br>You can refer https://docs.weavy.com/client/authentication for more details about authentication.
+
+## SCREENSHOTS OF THE PROJECT
+
+## Index
+
+![index page](https://user-images.githubusercontent.com/70442264/132801685-080b531a-83f1-4515-9a64-6c35403208f4.png)
+
+## Teacher Dashboard
+
+![teacher-dashboard](https://user-images.githubusercontent.com/70442264/132801722-e2238259-d9bf-4051-9d72-c41034865774.png)
+
+## Student Dashboard
+
+![student dashboard](https://user-images.githubusercontent.com/70442264/132801747-a995ee0a-3b28-4c5f-a68d-4fdfb3fd71ed.png)
+
+
+## References
 For more details about weavy visit https://www.weavy.com/
 
 For documentation about weavy visit https://docs.weavy.com/
+
+# Hackthon:
+This project was developed for the Build Tomorrow 2021 Hackathon by Weavy . 
+<br>This project won the second prize for the  Build Tomorrow 2021 Hackathon by Weavy under the theme : "Education".
+<br> Reference :[BUILD TOMMOROW HACKATHON 2021 by Weavy and HackerEarth](https://www.hackerearth.com/challenges/hackathon/build-tomorrow-a-weavy-hackathon/)
