@@ -60,7 +60,7 @@ For more details about weavy visit https://www.weavy.com/
 For documentation about weavy visit https://docs.weavy.com/
 
 # Hackthon:
-This project was developed for the Build Tomorrow 2021 Hackathon by Weavy . 
+ 
 <br>This project won the second prize for the  Build Tomorrow 2021 Hackathon by Weavy under the theme : "Education".
 <br> Reference :[BUILD TOMMOROW HACKATHON 2021 by Weavy and HackerEarth](https://www.hackerearth.com/challenges/hackathon/build-tomorrow-a-weavy-hackathon/)
 <br> Articles : https://www.weavy.com/developer/hackathons/buildtmr21-the-inevitables 
